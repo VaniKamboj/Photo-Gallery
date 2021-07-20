@@ -1,0 +1,120 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding-top: 800px;
+}
+
+.img1 {
+	width: 175px;
+	margin-bottom: 50px;
+	border-radius: 60%;
+}
+
+#home {
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 400px;
+	color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+	display: table;
+	text-align: center;
+	z-index: 9;
+	margin-top: 20px;
+}
+
+p {
+	font-size: 20px;
+
+}
+
+h1 {
+	font-size: 40px;
+	color:black;
+}
+
+
+.homediv {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+}
+
+.menu {
+	position: fixed;
+	top: 0px;
+	margin-top: 0px;
+	width: 100%;
+	z-index: 10;
+	cursor: pointer;
+	background: white;
+}
+
+
+.list:hover {
+	text-decoration: underline;
+	font-size: 25px;
+	color: whitesmoke;
+}
+
+.list {
+	float: center;
+	font-family: cursive;
+	font-size: 20px;
+	padding-right: 9px;
+	padding-left: 9px;
+	display: inline;
+	color: deeppink;
+}
+
+#p1 {
+	font-family: 'Akaya Kanadaka', cursive;}
+.line {
+	height: 6px;
+	background-color: black;
+	width: 70px;
+	margin: 8px auto;
+}
+
+.imgs{
+	width=275px;
+	height=183px;
+}
+#gridview{
+	margin-top: 120px;
+}
+.container {
+	text-align: center;
+}
+
+#mycarousel {
+	background-color: blueviolet;
+}
+
+#mycarousel img {
+	height: 300px;
+	margin-top: 35px;
+}
+
+.carousel-inner p {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	color: black;
+	font-size: 20px;
+}
+.span,.div{
+	display: inline;
+}
+
+#gridview{
+	background: radial-gradient(circle, rgba(199,134,242,1) 11%, rgba(29,253,239,1) 51%, rgba(252,69,245,1) 100%);
+}
+
+#Galleryview{
+	background: radial-gradient(circle, rgba(242,237,134,1) 13%, rgba(29,253,220,1) 51%, rgba(252,69,180,1) 100%);
+}
